@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order T-shirt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="order-form">
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="product-summary">
+                <div class="product-details">
+                    <h3>Cotton T-shirt</h3>
+                    <p>Quantity: 1</p>
+                </div>
+            </div>
+        </div>
+        
+        <form id="orderForm">
+            <h2>Enter Your Information</h2>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="aptNo">Apt No:</label>
+            <input type="text" id="aptNo" name="aptNo" required>
+
+            <label for="streetName">Street Name:</label>
+            <input type="text" id="streetName" name="streetName" required>
+
+            <label for="streetName2">Street Name 2 (Optional):</label>
+            <input type="text" id="streetName2" name="streetName2">
+
+            <label for="streetName3">Street Name 3 (Optional):</label>
+            <input type="text" id="streetName3" name="streetName3">
+
+            <label for="landmark">Landmark:</label>
+            <input type="text" id="landmark" name="landmark" required>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="pincode">Pincode:</label>
+            <input type="text" id="pincode" name="pincode" required>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+
+        <div id="confirmationMessage" class="confirmation-message">
+            Order Placed Successfully!
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
